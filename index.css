@@ -1,0 +1,754 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Headermenustart */
+
+#Headermenuback {
+  width: 100%;
+  height: 44px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.headermenuitems {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 60px;
+  letter-spacing: -0.28px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+}
+
+#applelogo {
+  width: 30px;
+  height: 44px;
+  background-color: transparent;
+  background-image: url(./pictures/Item\ →\ Link\ -\ Apple.png);
+  background-position: center;
+  background-size: cover;
+}
+
+#Searchicon {
+  width: 30px;
+  height: 44px;
+  background-color: transparent;
+  background-image: url(./pictures/Item\ →\ Button\ -\ Search\ apple.com.png);
+  background-position: center;
+  background-size: cover;
+}
+
+#Bagicon {
+  width: 30px;
+  height: 44px;
+  background-color: transparent;
+  background-image: url(./pictures/Bag.png);
+  background-position: center;
+  background-size: cover;
+}
+/* Sectiontext start */
+
+#Body-Paints {
+  width: 100%;
+  opacity: 1;
+  background: linear-gradient(180deg, #f5f5f7 0.59%, #ffffff 0.59%);
+}
+
+#Sectiontext-container {
+  width: 100%;
+  height: 52px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  gap: 4px;
+  opacity: 1;
+  transform: rotate(0deg);
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+#Sectiontext {
+  width: 100%;
+  height: 52px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  background-color: white;
+}
+
+#Frame1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 692px;
+  gap: 12px;
+  opacity: 1;
+  background-image: url(./pictures/Background.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.Frame1-1 {
+  position: absolute;
+  margin-top: 55px;
+  left: 757px;
+  width: 405px;
+  height: 172px;
+  display: flex;
+  gap: 20px;
+  background-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.Frame1-2 {
+  display: flex;
+  flex: row;
+  gap: 12px;
+}
+
+.Iphone16 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 52px;
+  line-height: 60px;
+  letter-spacing: -0.28px;
+  text-align: center;
+  color: white;
+}
+
+.Helloapple {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #f5f5f7;
+}
+
+.Learn {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.37px;
+  text-align: center;
+  color: white;
+}
+
+.Buy {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.37px;
+  text-align: center;
+  color: #2997ff;
+}
+
+.Learn-container {
+  width: 123px;
+  height: 44px;
+  padding: 12px 20px;
+  border-radius: 999px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: white;
+  background-color: #0071e3;
+  cursor: pointer;
+  border: none;
+}
+
+.Buy-container {
+  width: 68px;
+  height: 44px;
+  padding: 12px 20px;
+  border-radius: 999px;
+  box-sizing: border-box;
+  border-color: #0071e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  border: 1px solid #0071e3;
+}
+
+/* Body paints1 starts */
+
+#Body-Paints1 {
+  width: 100%;
+  opacity: 1;
+  background: linear-gradient(180deg, #f5f5f7 0.59%, #ffffff 0.59%);
+  margin-top: 12px;
+}
+
+#Frame2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 692px;
+  gap: 12px;
+  opacity: 1;
+  background-image: url(./pictures/Background2.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+/* Body paints2 starts */
+
+#Body-Paints2 {
+  width: 100%;
+  opacity: 1;
+  background: linear-gradient(180deg, #f5f5f7 0.59%, #ffffff 0.59%);
+  margin-top: 12px;
+}
+
+#Frame3 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 692px;
+  gap: 12px;
+  opacity: 1;
+  background-image: url(./pictures/Figure.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#Frame3-1 {
+  position: absolute;
+  margin-top: 446px;
+  left: 757px;
+  width: 405px;
+  height: 172px;
+  display: flex;
+  gap: 20px;
+  background-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateX(-50%);
+  left: 50%;
+  align-items: center;
+}
+
+/* Body-Paints3 starts */
+
+#Body-Paints3 {
+  width: 100%;
+  opacity: 1;
+  height: 592px;
+  background: linear-gradient(180deg, #f5f5f7 0.59%, #ffffff 0.59%);
+  margin-top: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+#ipadair {
+  display: flex;
+  flex-direction: column;
+  width: 942px;
+  height: 580px;
+  opacity: 1;
+  background-image: url(./pictures/Figure2.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-left: 12px;
+}
+
+#airpods {
+  display: flex;
+  flex-direction: column;
+  width: 942px;
+  height: 580px;
+  gap: 12px;
+  opacity: 1;
+  background-image: url(./pictures/Figure1.png);
+  background-position: center;
+  background-size: cover;
+  margin-right: 12px;
+  position: relative;
+}
+
+#Frameair {
+  position: absolute;
+  left: 757px;
+  width: 405px;
+  height: 172px;
+  display: flex;
+  background-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateX(-50%);
+  left: 50%;
+  align-items: center;
+  margin-top: 38px;
+}
+
+#ipadairlogo {
+  width: 430px;
+  height: 33px;
+  background-color: transparent;
+  background-image: url(./pictures/Heading3.png);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 9px;
+}
+
+#Appleintel {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0;
+  text-align: center;
+  background: linear-gradient(
+    90.43deg,
+    #0090f7 0%,
+    #ba62fc 33.33%,
+    #f2416b 66.67%,
+    #f55600 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 53px;
+}
+
+#Frameairpods {
+  position: absolute;
+  margin-top: 390px;
+  left: 757px;
+  width: 405px;
+  height: 172px;
+  display: flex;
+  background-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+/* Body-Paints4 starts */
+
+#Body-Paints4 {
+  width: 100%;
+  opacity: 1;
+  background: linear-gradient(180deg, #f5f5f7 0.59%, #ffffff 0.59%);
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  justify-content: center;
+}
+
+#applewatch {
+  display: flex;
+  flex-direction: column;
+  width: 942px;
+  height: 580px;
+  opacity: 1;
+  background-image: url(./pictures/Applewatchback.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#watchlogo {
+  width: 152px;
+  height: 61px;
+  background-color: transparent;
+  background-image: url(./pictures/Watchframe.png);
+  background-position: center;
+  background-size: cover;
+}
+
+#Framewatch1 {
+  display: flex;
+  flex: row;
+  gap: 12px;
+}
+
+#applewatchcontainer {
+  display: flex;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  width: 322px;
+  flex-direction: column;
+  align-items: center;
+  top: 58px;
+}
+
+#macbookair {
+  display: flex;
+  flex-direction: column;
+  width: 942px;
+  height: 580px;
+  gap: 12px;
+  opacity: 1;
+  background-image: url(./pictures/Macbookairback.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#Framemacbook {
+  margin-top: 38px;
+  left: 757px;
+  width: 405px;
+  height: 172px;
+  display: flex;
+  background-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+  gap: 10px;
+}
+
+/* Body paints5 starts */
+
+#Body-Paints5 {
+  width: 100%;
+  opacity: 1;
+  background: linear-gradient(180deg, #f5f5f7 0.59%, #ffffff 0.59%);
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+#tradeinbackground {
+  display: flex;
+  flex-direction: column;
+  width: 942px;
+  height: 580px;
+  opacity: 1;
+  background-image: url(./pictures/tradeinbackground.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#tradeincontainer {
+  display: flex;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  width: 322px;
+  flex-direction: column;
+  align-items: center;
+  top: 58px;
+  gap: 10px;
+}
+
+#tradeinlogo {
+  width: 161px;
+  height: 39px;
+  background-color: transparent;
+  background-image: url(./pictures/TradeinLogo.png);
+  background-position: center;
+  background-size: cover;
+}
+
+#Cardbackground {
+  display: flex;
+  flex-direction: column;
+  width: 942px;
+  height: 580px;
+  opacity: 1;
+  background-image: url(./pictures/cardbackground.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#Learn-container-trade {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.37px;
+  color: white;
+}
+
+#Cardlogo {
+  width: 110px;
+  height: 39px;
+  background-color: transparent;
+  background-image: url(./pictures/Frame3.png);
+  background-position: center;
+  background-size: cover;
+}
+
+#cardcontainer {
+  display: flex;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  top: 58px;
+}
+
+#Apply-now {
+  width: 112px;
+  height: 44px;
+  border-radius: 999px;
+  box-sizing: border-box;
+  border-color: #0071e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  border: 1px solid #0071e3;
+}
+
+#Body-Paints6 {
+  width: 100%;
+  opacity: 1;
+  background: linear-gradient(180deg, #f5f5f7 0.59%, #ffffff 0.59%);
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  justify-content: flex-start;
+  margin-top: 12px;
+  overflow-x: auto;
+}
+
+#Body-Paints6::-webkit-scrollbar {
+display: none;
+}
+
+
+.body-paints {
+  display: flex;
+  flex-direction: column;
+  height: 668px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  flex-shrink: 0;
+}
+
+#Body-Paints6-1 {
+  width: 1250px;
+  /* flex: 1; */
+  background-image: url(./pictures/Bodypaints6back.png);
+}
+
+#Body-Paints6-2 {
+  width: 1250px;
+  background-image: url(./pictures/Bodypaints6back.png);
+}
+
+#Body-Paints6-3 {
+  width: 1250px;
+  /* flex: 1; */
+  background-image: url(./pictures/Bodypaints6back.png);
+}
+
+#BP6span {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: normal;
+  vertical-align: middle;
+  font-style: normal;
+  position: absolute;
+  bottom: 78px;
+  left: 223px;
+  color: white;
+}
+
+#BP6-container {
+  border-radius: 999px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: white;
+  background-color: #f5f5f7;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  width: 133px;
+  height: 44px;
+  bottom: 68px;
+  left: 70px;
+}
+
+#tablelist {
+  width: 220px;
+  height: 8px;
+  background-image: url(./pictures/Tablist.png);
+  background-position: center;
+  background-size: cover;
+  margin-top: 12px;
+  transform: translateX(-50%);
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Body paints 7 start */
+
+#Body-Paints7 {
+  width: 100%;
+  background: linear-gradient(180deg, #f5f5f7 0.59%, #ffffff 0.59%);
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  justify-content: flex-start;
+  margin-top: 12px;
+  flex-shrink: 0;
+  overflow-x: auto;
+}
+
+#Body-Paints7::-webkit-scrollbar {
+display: none;
+}
+
+.BD7Back {
+  width: 417px;
+  height: 236px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+#BD7back1 {
+  background-image: url(./pictures/BD7-1back.png);
+}
+
+#BD7back2 {
+  background-image: url(./pictures/BD7-2back.png);
+}
+
+#BD7back3 {
+  background-image: url(./pictures/BD7-3back.png);
+}
+
+#BD7back4 {
+  background-image: url(./pictures/BD7-4back.png);
+}
+
+#BD7back5 {
+  background-image: url(./pictures/BD7-5back.png);
+}
+
+.BD7text {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.22px;
+  vertical-align: middle;
+  font-style: normal;
+  color: white;
+}
+
+#BD7text1 {
+  position: absolute;
+  top: 198px;
+  left: 18px;
+}
+
+#BD7text2 {
+  position: absolute;
+  top: 109px;
+  left: 226px;
+}
+
+#BD7text3 {
+  position: absolute;
+  top: 198px;
+  left: 15px;
+}
+
+#BD7text4 {
+  position: absolute;
+  top: 198px;
+  left: 15px;
+}
+
+/* Body paints 8 starts */
+
+#Body-paints8 {
+  height: 56px;
+  width: 100%;
+  background-color: white;
+  position: relative;
+}
+
+#smallplaybutton {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  background-image: url(./pictures/MaskGroup.png);
+  bottom: 16px;
+  right: 16px;
+}
