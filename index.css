@@ -572,9 +572,8 @@
 }
 
 #Body-Paints6::-webkit-scrollbar {
-display: none;
+  display: none;
 }
-
 
 .body-paints {
   display: flex;
@@ -666,7 +665,7 @@ display: none;
 }
 
 #Body-Paints7::-webkit-scrollbar {
-display: none;
+  display: none;
 }
 
 .BD7Back {
@@ -751,4 +750,43 @@ display: none;
   background-image: url(./pictures/MaskGroup.png);
   bottom: 16px;
   right: 16px;
+}
+
+/* Body paints 9 starts */
+
+#Body-paints9 {
+  height: 1000px;
+  width: 1920px;
+  background-color: white;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+}
+
+.BD9Header {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1d1d1f;
+}
+
+.BD9Footer {
+  font-size: 13px;
+  font-weight: 400;
+  color: #424245;
+}
+
+.BD9con {
+  height: 800px;
+  width: 200px;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.BD9incon {
+  flex-direction: column;
+  display: flex;
+  gap: 15px;
 }
