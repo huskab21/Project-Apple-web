@@ -56,6 +56,23 @@
   background-position: center;
   background-size: cover;
 }
+
+#shopicon {
+  width: 18px;
+  height: 18px;
+  background-color: transparent;
+  background-image: url(./tablet.pictures/SVG.png);
+  background-position: center;
+  background-size: cover;
+  display: none;
+}
+
+#hamtdaa {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
 /* Sectiontext start */
 
 #Body-Paints {
@@ -107,6 +124,19 @@
   position: relative;
 }
 
+#Frame1tablet {
+  display: none;
+  flex-direction: column;
+  width: 768px;
+  height: 650px;
+  gap: 12px;
+  opacity: 1;
+  background-image: url(./tablet.pictures/Figure3.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
 .Frame1-1 {
   position: absolute;
   margin-top: 55px;
@@ -125,7 +155,7 @@
 
 .Frame1-2 {
   display: flex;
-  flex: row;
+  flex-direction: row;
   gap: 12px;
 }
 
@@ -231,6 +261,19 @@
   position: relative;
 }
 
+#Frame2tablet {
+  display: none;
+  flex-direction: column;
+  width: 768px;
+  height: 650px;
+  gap: 12px;
+  opacity: 1;
+  background-image: url(./tablet.pictures/Figure4.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
 /* Body paints2 starts */
 
 #Body-Paints2 {
@@ -248,6 +291,19 @@
   gap: 12px;
   opacity: 1;
   background-image: url(./pictures/Figure.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#Frame3tablet {
+  display: none;
+  flex-direction: column;
+  width: 768px;
+  height: 650px;
+  gap: 12px;
+  opacity: 1;
+  background-image: url(./tablet.pictures/Figure5.png);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -274,7 +330,7 @@
 #Body-Paints3 {
   width: 100%;
   opacity: 1;
-  height: 592px;
+  height: 490px;
   background: linear-gradient(180deg, #f5f5f7 0.59%, #ffffff 0.59%);
   margin-top: 12px;
   display: flex;
@@ -322,6 +378,140 @@
   left: 50%;
   align-items: center;
   margin-top: 38px;
+}
+
+#airpodtablet {
+  display: none;
+  flex-direction: column;
+  width: 366px;
+  height: 490px;
+  gap: 12px;
+  opacity: 1;
+  background-image: url(./tablet.pictures/Figure6.png);
+  background-position: center;
+  background-size: cover;
+  margin-left: 12px;
+  position: relative;
+}
+
+#applewatchtablet {
+  display: none;
+  flex-direction: column;
+  width: 366px;
+  height: 490px;
+  opacity: 1;
+  background-image: url(./tablet.pictures/Figure7.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#macbookairtablet {
+  display: none;
+  flex-direction: column;
+  width: 366px;
+  height: 490px;
+  opacity: 1;
+  background-image: url(./tablet.pictures/Figure8.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-top: 12px;
+}
+
+#applewatchcontainertablet {
+  display: flex;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  width: 322px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 46px;
+}
+
+#small-business {
+  display: none;
+  flex-direction: column;
+  width: 366px;
+  height: 490px;
+  opacity: 1;
+  background-image: url(./tablet.pictures/Figure9.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-top: 12px;
+}
+
+#small-business-con {
+  position: absolute;
+  margin-top: 100px;
+  left: 757px;
+  width: 257px;
+  height: 116px;
+  display: flex;
+  background-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+#careerstablet {
+  display: none;
+  flex-direction: column;
+  width: 366px;
+  height: 490px;
+  opacity: 1;
+  background-image: url(./tablet.pictures/Figure10.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#careerstablet-con {
+  position: absolute;
+  margin-top: 296px;
+  left: 757px;
+  width: 314px;
+  height: 152px;
+  display: flex;
+  background-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-50%);
+  left: 50%;
+  gap: 10px;
+}
+
+#tradeintablet {
+  display: none;
+  flex-direction: column;
+  width: 366px;
+  height: 490px;
+  opacity: 1;
+  background-image: url(./tablet.pictures/Figure11.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#tradeintablet-con {
+  position: absolute;
+  margin-top: 46px;
+  left: 757px;
+  width: 285px;
+  height: 130px;
+  display: flex;
+  background-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-50%);
+  left: 50%;
+  gap: 10px;
 }
 
 #ipadairlogo {
@@ -376,6 +566,50 @@
   left: 50%;
 }
 
+#Frameairpodstablet {
+  position: absolute;
+  margin-top: 287px;
+  width: 261px;
+  height: 161px;
+  background-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-50%);
+  left: 50%;
+  display: none;
+}
+
+#Framewatchtablet {
+  position: absolute;
+  margin-top: 287px;
+  left: 757px;
+  width: 261px;
+  height: 161px;
+  background-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-50%);
+  left: 50%;
+  display: none;
+}
+
+#Framewatchtablet {
+  position: absolute;
+  margin-top: 46px;
+  left: 757px;
+  width: 261px;
+  height: 161px;
+  background-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-50%);
+  left: 50%;
+  display: none;
+}
+
 /* Body-Paints4 starts */
 
 #Body-Paints4 {
@@ -411,7 +645,7 @@
 
 #Framewatch1 {
   display: flex;
-  flex: row;
+  flex-direction: row;
   gap: 12px;
 }
 
@@ -571,6 +805,19 @@
   overflow-x: auto;
 }
 
+#Body-Paints6-tablet {
+  width: 100%;
+  opacity: 1;
+  background: linear-gradient(180deg, #f5f5f7 0.59%, #ffffff 0.59%);
+  display: none;
+  flex-direction: row;
+  gap: 12px;
+  justify-content: flex-start;
+  margin-top: 12px;
+  overflow-x: auto;
+  height: 368px;
+}
+
 #Body-Paints6::-webkit-scrollbar {
   display: none;
 }
@@ -586,20 +833,39 @@
 }
 
 #Body-Paints6-1 {
-  width: 1250px;
+  width: 100%;
   /* flex: 1; */
   background-image: url(./pictures/Bodypaints6back.png);
+}
+
+#Body-Paints6-1-tablet {
+  width: 100%;
+  /* flex: 1; */
+  background-image: url(./pictures/Bodypaints6back.png);
+  height: 368px;
 }
 
 #Body-Paints6-2 {
-  width: 1250px;
+  width: 100%;
   background-image: url(./pictures/Bodypaints6back.png);
 }
 
+#Body-Paints6-2-tablet {
+  width: 100%;
+  background-image: url(./pictures/Bodypaints6back.png);
+  height: 368px;
+}
+
 #Body-Paints6-3 {
-  width: 1250px;
+  width: 100%;
   /* flex: 1; */
   background-image: url(./pictures/Bodypaints6back.png);
+}
+
+#Body-Paints6-3-tablet {
+  width: 100%;
+  background-image: url(./pictures/Bodypaints6back.png);
+    height: 368px;
 }
 
 #BP6span {
@@ -662,6 +928,12 @@
   margin-top: 12px;
   flex-shrink: 0;
   overflow-x: auto;
+}
+
+#Body-Paints7-tablet {
+  display: none;
+  height: 194px;
+  margin-top: 12px;
 }
 
 #Body-Paints7::-webkit-scrollbar {
@@ -756,13 +1028,14 @@
 
 #Body-paints9 {
   height: 1000px;
-  width: 1920px;
+  width: 100%;
   background-color: white;
   position: relative;
   display: flex;
   flex-direction: row;
   gap: 50px;
   justify-content: center;
+  max-width: 1920px;
 }
 
 .BD9Header {
