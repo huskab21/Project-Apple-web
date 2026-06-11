@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 390px) {
+  /* Header start */
+
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+
+  .headermenuitems {
+    display: none;
+  }
+
+  #Headermenuback {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 16px;
+    max-width: none;
+  }
+  #shopicon {
+    display: block;
+  }
+
+  #hamtdaa {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+  }
+
+  #Frame1 {
+    display: none;
+  }
+
+  #Frame1tablet {
+    display: none;
+  }
+
+  #Frame1mobile {
+    display: flex;
+  }
+
+  #Frame2 {
+    display: none;
+  }
+  #Frame2tablet {
+    display: none;
+  }
+  #Frame2mobile {
+    display: flex;
+  }
+
+  #Frame3 {
+    display: none;
+  }
+
+  #Frame3tablet {
+    display: none;
+  }
+
+  #Frame3mobile {
+    display: flex;
+  }
+
+  #airpodtablet {
+    display: none;
+  }
+
+  #airpodmobile {
+    display: flex;
+  }
+
+  #applewatchtablet {
+    display: none;
+  }
+
+  #applewatchmobile {
+    display: flex;
+  }
+
+  #macbookairtablet {
+    display: none;
+  }
+
+  #macbookairmobile {
+    display: flex;
+  }
+
+  #small-business {
+    display: none;
+  }
+
+  #small-business-mobile {
+    display: flex;
+  }
+
+  #careerstablet {
+    display: none;
+  }
+
+  #careerstablet-mobile {
+    display: flex;
+  }
+
+  #tradeintablet {
+    display: none;
+  }
+
+  #tradeintablet-mobile {
+    display: flex;
+  }
+
+  #tradeinbackground {
+    display: none;
+  }
+
+  #Cardbackground {
+    display: none;
+  }
+
+  /* #tradeintablet-con {display: none;}
+
+  #careerstablet-con {display: none;} */
+
+  #careerstablet-con-mobile {
+    display: flex;
+  }
+
+  #tradeintablet-con-mobile {
+    display: flex;
+  }
+
+  #Body-Paints3,
+  #Body-Paints4,
+  #Body-Paints5 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+
+  #Body-Paints6-tablet {
+    display: none;
+  }
+
+  #Body-Paints6-mobile {
+    display: flex;
+  }
+
+  #Body-Paints7-tablet {
+    display: none;
+  }
+
+  .BD7Back-mobile {
+    display: flex;
+  }
+
+  #Body-Paints7-mobile {
+    display: flex;
+  }
+}

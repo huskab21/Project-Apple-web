@@ -34,7 +34,7 @@
   width: 30px;
   height: 44px;
   background-color: transparent;
-  background-image: url(./pictures/Item\ →\ Link\ -\ Apple.png);
+  background-image: url("./pictures/Item → Link - Apple.png");
   background-position: center;
   background-size: cover;
 }
@@ -43,7 +43,7 @@
   width: 30px;
   height: 44px;
   background-color: transparent;
-  background-image: url(./pictures/Item\ →\ Button\ -\ Search\ apple.com.png);
+  background-image: url("./pictures/Item → Button - Search apple.com.png");
   background-position: center;
   background-size: cover;
 }
@@ -52,7 +52,7 @@
   width: 30px;
   height: 44px;
   background-color: transparent;
-  background-image: url(./pictures/Bag.png);
+  background-image: url("./pictures/Bag.png");
   background-position: center;
   background-size: cover;
 }
@@ -61,7 +61,7 @@
   width: 18px;
   height: 18px;
   background-color: transparent;
-  background-image: url(./tablet.pictures/SVG.png);
+  background-image: url("./tablet.pictures/SVG.png");
   background-position: center;
   background-size: cover;
   display: none;
@@ -107,7 +107,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 20px;
   background-color: white;
 }
 
@@ -118,7 +117,7 @@
   height: 692px;
   gap: 12px;
   opacity: 1;
-  background-image: url(./pictures/Background.png);
+  background-image: url("./pictures/Background.png");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -131,7 +130,20 @@
   height: 650px;
   gap: 12px;
   opacity: 1;
-  background-image: url(./tablet.pictures/Figure3.png);
+  background-image: url("./tablet.pictures/Figure3.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#Frame1mobile {
+  display: none;
+  flex-direction: column;
+  width: 390px;
+  height: 500px;
+  gap: 12px;
+  opacity: 1;
+  background-image: url("./mobile.pictures/Figure.png");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -140,7 +152,6 @@
 .Frame1-1 {
   position: absolute;
   margin-top: 55px;
-  left: 757px;
   width: 405px;
   height: 172px;
   display: flex;
@@ -227,7 +238,6 @@
   padding: 12px 20px;
   border-radius: 999px;
   box-sizing: border-box;
-  border-color: #0071e3;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -255,7 +265,7 @@
   height: 692px;
   gap: 12px;
   opacity: 1;
-  background-image: url(./pictures/Background2.png);
+  background-image: url("./pictures/Background2.png");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -268,7 +278,20 @@
   height: 650px;
   gap: 12px;
   opacity: 1;
-  background-image: url(./tablet.pictures/Figure4.png);
+  background-image: url("./tablet.pictures/Figure4.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#Frame2mobile {
+  display: none;
+  flex-direction: column;
+  width: 390px;
+  height: 500px;
+  gap: 12px;
+  opacity: 1;
+  background-image: url("./mobile.pictures/Background13.png");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -290,7 +313,7 @@
   height: 692px;
   gap: 12px;
   opacity: 1;
-  background-image: url(./pictures/Figure.png);
+  background-image: url("./pictures/Figure.png");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -303,7 +326,20 @@
   height: 650px;
   gap: 12px;
   opacity: 1;
-  background-image: url(./tablet.pictures/Figure5.png);
+  background-image: url("./tablet.pictures/Figure5.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#Frame3mobile {
+  display: none;
+  flex-direction: column;
+  width: 390px;
+  height: 500px;
+  gap: 12px;
+  opacity: 1;
+  background-image: url("./mobile.pictures/Figure3.png");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -312,7 +348,6 @@
 #Frame3-1 {
   position: absolute;
   margin-top: 446px;
-  left: 757px;
   width: 405px;
   height: 172px;
   display: flex;
@@ -344,7 +379,7 @@
   width: 942px;
   height: 580px;
   opacity: 1;
-  background-image: url(./pictures/Figure2.png);
+  background-image: url("./pictures/Figure2.png");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -358,7 +393,7 @@
   height: 580px;
   gap: 12px;
   opacity: 1;
-  background-image: url(./pictures/Figure1.png);
+  background-image: url("./pictures/Figure1.png");
   background-position: center;
   background-size: cover;
   margin-right: 12px;
@@ -367,7 +402,6 @@
 
 #Frameair {
   position: absolute;
-  left: 757px;
   width: 405px;
   height: 172px;
   display: flex;
@@ -387,10 +421,23 @@
   height: 490px;
   gap: 12px;
   opacity: 1;
-  background-image: url(./tablet.pictures/Figure6.png);
+  background-image: url("./tablet.pictures/Figure6.png");
   background-position: center;
   background-size: cover;
   margin-left: 12px;
+  position: relative;
+}
+
+#airpodmobile {
+  display: none;
+  flex-direction: column;
+  width: 390px;
+  height: 500px;
+  gap: 12px;
+  opacity: 1;
+  background-image: url("./tablet.pictures/Figure6.png");
+  background-position: center;
+  background-size: cover;
   position: relative;
 }
 
@@ -400,7 +447,19 @@
   width: 366px;
   height: 490px;
   opacity: 1;
-  background-image: url(./tablet.pictures/Figure7.png);
+  background-image: url("./tablet.pictures/Figure7.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#applewatchmobile {
+  display: none;
+  flex-direction: column;
+  width: 390px;
+  height: 500px;
+  opacity: 1;
+  background-image: url("./tablet.pictures/Figure7.png");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -412,11 +471,24 @@
   width: 366px;
   height: 490px;
   opacity: 1;
-  background-image: url(./tablet.pictures/Figure8.png);
+  background-image: url("./tablet.pictures/Figure8.png");
   background-position: center;
   background-size: cover;
   position: relative;
   margin-top: 12px;
+}
+
+#macbookairmobile {
+  display: none;
+  flex-direction: column;
+  width: 390px;
+  height: 500px;
+  opacity: 1;
+  background-image: url("./tablet.pictures/Figure8.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-top: 16px;
 }
 
 #applewatchcontainertablet {
@@ -436,17 +508,28 @@
   width: 366px;
   height: 490px;
   opacity: 1;
-  background-image: url(./tablet.pictures/Figure9.png);
+  background-image: url("./tablet.pictures/Figure9.png");
   background-position: center;
   background-size: cover;
   position: relative;
   margin-top: 12px;
 }
 
+#small-business-mobile {
+  display: none;
+  flex-direction: column;
+  width: 390px;
+  height: 500px;
+  opacity: 1;
+  background-image: url("./tablet.pictures/Figure9.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
 #small-business-con {
   position: absolute;
   margin-top: 100px;
-  left: 757px;
   width: 257px;
   height: 116px;
   display: flex;
@@ -464,7 +547,19 @@
   width: 366px;
   height: 490px;
   opacity: 1;
-  background-image: url(./tablet.pictures/Figure10.png);
+  background-image: url("./tablet.pictures/Figure10.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#careerstablet-mobile {
+  display: none;
+  flex-direction: column;
+  width: 390px;
+  height: 500px;
+  opacity: 1;
+  background-image: url("./tablet.pictures/Figure10.png");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -473,7 +568,6 @@
 #careerstablet-con {
   position: absolute;
   margin-top: 296px;
-  left: 757px;
   width: 314px;
   height: 152px;
   display: flex;
@@ -486,13 +580,41 @@
   gap: 10px;
 }
 
+#careerstablet-con-mobile {
+  position: absolute;
+  margin-top: 296px;
+  width: 314px;
+  height: 152px;
+  display: flex;
+  background-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-50%);
+  left: 50%;
+  gap: 10px;
+  display: none;
+}
+
 #tradeintablet {
   display: none;
   flex-direction: column;
   width: 366px;
   height: 490px;
   opacity: 1;
-  background-image: url(./tablet.pictures/Figure11.png);
+  background-image: url("./tablet.pictures/Figure11.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#tradeintablet-mobile {
+  display: none;
+  flex-direction: column;
+  width: 390px;
+  height: 500px;
+  opacity: 1;
+  background-image: url("./tablet.pictures/Figure11.png");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -501,7 +623,6 @@
 #tradeintablet-con {
   position: absolute;
   margin-top: 46px;
-  left: 757px;
   width: 285px;
   height: 130px;
   display: flex;
@@ -514,11 +635,27 @@
   gap: 10px;
 }
 
+#tradeintablet-con-mobile {
+  position: absolute;
+  margin-top: 51px;
+  width: 314px;
+  height: 152px;
+  display: flex;
+  background-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-50%);
+  left: 50%;
+  gap: 10px;
+  display: none;
+}
+
 #ipadairlogo {
   width: 430px;
   height: 33px;
   background-color: transparent;
-  background-image: url(./pictures/Heading3.png);
+  background-image: url("./pictures/Heading3.png");
   background-position: center;
   background-size: cover;
   margin-bottom: 9px;
@@ -554,7 +691,6 @@
 #Frameairpods {
   position: absolute;
   margin-top: 390px;
-  left: 757px;
   width: 405px;
   height: 172px;
   display: flex;
@@ -582,23 +718,7 @@
 
 #Framewatchtablet {
   position: absolute;
-  margin-top: 287px;
-  left: 757px;
-  width: 261px;
-  height: 161px;
-  background-color: transparent;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  transform: translateX(-50%);
-  left: 50%;
-  display: none;
-}
-
-#Framewatchtablet {
-  position: absolute;
   margin-top: 46px;
-  left: 757px;
   width: 261px;
   height: 161px;
   background-color: transparent;
@@ -628,7 +748,7 @@
   width: 942px;
   height: 580px;
   opacity: 1;
-  background-image: url(./pictures/Applewatchback.png);
+  background-image: url("./pictures/Applewatchback.png");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -636,9 +756,9 @@
 
 #watchlogo {
   width: 152px;
-  height: 61px;
+  height: 75px;
   background-color: transparent;
-  background-image: url(./pictures/Watchframe.png);
+  background-image: url("./pictures/Watchframe.png");
   background-position: center;
   background-size: cover;
 }
@@ -667,7 +787,7 @@
   height: 580px;
   gap: 12px;
   opacity: 1;
-  background-image: url(./pictures/Macbookairback.png);
+  background-image: url("./pictures/Macbookairback.png");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -675,7 +795,6 @@
 
 #Framemacbook {
   margin-top: 38px;
-  left: 757px;
   width: 405px;
   height: 172px;
   display: flex;
@@ -708,7 +827,7 @@
   width: 942px;
   height: 580px;
   opacity: 1;
-  background-image: url(./pictures/tradeinbackground.png);
+  background-image: url("./pictures/tradeinbackground.png");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -730,7 +849,7 @@
   width: 161px;
   height: 39px;
   background-color: transparent;
-  background-image: url(./pictures/TradeinLogo.png);
+  background-image: url("./pictures/TradeinLogo.png");
   background-position: center;
   background-size: cover;
 }
@@ -741,7 +860,7 @@
   width: 942px;
   height: 580px;
   opacity: 1;
-  background-image: url(./pictures/cardbackground.png);
+  background-image: url("./pictures/cardbackground.png");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -761,7 +880,7 @@
   width: 110px;
   height: 39px;
   background-color: transparent;
-  background-image: url(./pictures/Frame3.png);
+  background-image: url("./pictures/Frame3.png");
   background-position: center;
   background-size: cover;
 }
@@ -818,6 +937,19 @@
   height: 368px;
 }
 
+#Body-Paints6-mobile {
+  width: 100%;
+  opacity: 1;
+  background: linear-gradient(180deg, #f5f5f7 0.59%, #ffffff 0.59%);
+  display: none;
+  flex-direction: row;
+  gap: 12px;
+  justify-content: flex-start;
+  margin-top: 12px;
+  overflow-x: auto;
+  height: 495px;
+}
+
 #Body-Paints6::-webkit-scrollbar {
   display: none;
 }
@@ -832,40 +964,62 @@
   flex-shrink: 0;
 }
 
+.body-paints-m {
+  display: flex;
+  flex-direction: column;
+  height: 495px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  flex-shrink: 0;
+}
+
 #Body-Paints6-1 {
   width: 100%;
-  /* flex: 1; */
-  background-image: url(./pictures/Bodypaints6back.png);
+  background-image: url("./pictures/Bodypaints6back.png");
 }
 
 #Body-Paints6-1-tablet {
   width: 100%;
-  /* flex: 1; */
-  background-image: url(./pictures/Bodypaints6back.png);
+  background-image: url("./pictures/Bodypaints6back.png");
   height: 368px;
+}
+
+#Body-Paints6-1-mobile {
+  background-image: url("./pictures/Bodypaints6back.png");
+  width: 100%;
 }
 
 #Body-Paints6-2 {
   width: 100%;
-  background-image: url(./pictures/Bodypaints6back.png);
+  background-image: url("./pictures/Bodypaints6back.png");
 }
 
 #Body-Paints6-2-tablet {
   width: 100%;
-  background-image: url(./pictures/Bodypaints6back.png);
+  background-image: url("./pictures/Bodypaints6back.png");
   height: 368px;
+}
+
+#Body-Paints6-2-mobile {
+  background-image: url("./pictures/Bodypaints6back.png");
+  width: 100%;
 }
 
 #Body-Paints6-3 {
   width: 100%;
-  /* flex: 1; */
-  background-image: url(./pictures/Bodypaints6back.png);
+  background-image: url("./pictures/Bodypaints6back.png");
 }
 
 #Body-Paints6-3-tablet {
   width: 100%;
-  background-image: url(./pictures/Bodypaints6back.png);
-    height: 368px;
+  background-image: url("./pictures/Bodypaints6back.png");
+  height: 368px;
+}
+
+#Body-Paints6-3-mobile {
+  width: 100%;
+  background-image: url("./pictures/Bodypaints6back.png");
 }
 
 #BP6span {
@@ -880,6 +1034,21 @@
   bottom: 78px;
   left: 223px;
   color: white;
+}
+
+#BP6span-tablet {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: normal;
+  vertical-align: middle;
+  font-style: normal;
+  position: absolute;
+  bottom: 25px;
+  left: 223px;
+  color: white;
+  display: none;
 }
 
 #BP6-container {
@@ -901,10 +1070,30 @@
   left: 70px;
 }
 
+#BP6-container-tablet {
+  border-radius: 999px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: white;
+  background-color: #f5f5f7;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  width: 133px;
+  height: 44px;
+  bottom: 27px;
+  left: 70px;
+  display: none;
+}
+
 #tablelist {
   width: 220px;
   height: 8px;
-  background-image: url(./pictures/Tablist.png);
+  background-image: url("./pictures/Tablist.png");
   background-position: center;
   background-size: cover;
   margin-top: 12px;
@@ -934,6 +1123,16 @@
   display: none;
   height: 194px;
   margin-top: 12px;
+  flex-shrink: 0;
+  overflow-x: auto;
+}
+
+#Body-Paints7-mobile {
+  display: none;
+  height: 160px;
+  margin-top: 12px;
+  flex-shrink: 0;
+  overflow-x: auto;
 }
 
 #Body-Paints7::-webkit-scrollbar {
@@ -951,24 +1150,35 @@
   flex-shrink: 0;
 }
 
+.BD7Back-mobile {
+  width: 238px;
+  height: 160px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  flex-direction: column;
+  flex-shrink: 0;
+  display: none;
+}
+
 #BD7back1 {
-  background-image: url(./pictures/BD7-1back.png);
+  background-image: url("./pictures/BD7-1back.png");
 }
 
 #BD7back2 {
-  background-image: url(./pictures/BD7-2back.png);
+  background-image: url("./pictures/BD7-2back.png");
 }
 
 #BD7back3 {
-  background-image: url(./pictures/BD7-3back.png);
+  background-image: url("./pictures/BD7-3back.png");
 }
 
 #BD7back4 {
-  background-image: url(./pictures/BD7-4back.png);
+  background-image: url("./pictures/BD7-4back.png");
 }
 
 #BD7back5 {
-  background-image: url(./pictures/BD7-5back.png);
+  background-image: url("./pictures/BD7-5back.png");
 }
 
 .BD7text {
@@ -1019,7 +1229,7 @@
   width: 24px;
   height: 24px;
   position: absolute;
-  background-image: url(./pictures/MaskGroup.png);
+  background-image: url("./pictures/MaskGroup.png");
   bottom: 16px;
   right: 16px;
 }

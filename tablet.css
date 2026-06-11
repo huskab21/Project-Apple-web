@@ -15,7 +15,9 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+    padding: 0 16px;
   }
+
   #shopicon {
     display: block;
   }
@@ -76,12 +78,15 @@
   #Frameairpodstablet {
     display: flex;
   }
+
   #macbookairtablet {
     display: flex;
   }
+
   #applewatch {
     display: none;
   }
+
   #macbookair {
     display: none;
   }
@@ -89,16 +94,11 @@
   #Body-Paints7 {
     display: none;
   }
+
   #Body-Paints6 {
     display: none;
   }
 
-  #Body-paints9 {
-    display: none;
-  }
-  #Body-paints8 {
-    display: none;
-  }
   #tablelist {
     display: none;
   }
@@ -111,46 +111,47 @@
     display: flex;
   }
 
-  #careerstablet {
-    display: flex;
-  }
-
-  #tradeintablet {
-    display: flex;
-  }
-
-  #tradeinbackground {
-    display: none;
-  }
-
-  #Cardbackground {
-    display: none;
-  }
   #Body-Paints5 {
     display: flex;
   }
 
-  #tradeinbackground {
-    display: none;
-  }
-
-  #Cardbackground {
-    display: none;
-  }
-
   #careerstablet {
     display: flex;
   }
 
   #tradeintablet {
     display: flex;
+  }
+
+  #tradeinbackground {
+    display: none;
+  }
+
+  #Cardbackground {
+    display: none;
   }
 
   #Body-Paints6-tablet {
     display: flex;
   }
 
-  #Body-Paints6-tablet {display: flex;}
+  #BP6-container-tablet {
+    display: flex;
+  }
 
-  #Body-Paints7-tablet {display: flex;}
+  #BP6span-tablet {
+    display: flex;
+  }
+
+  #Body-Paints7-tablet {
+    display: flex;
+  }
+
+  #Body-paints8 {
+    display: none;
+  }
+
+  #Body-paints9 {
+    display: none;
+  }
 }
