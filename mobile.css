@@ -7,11 +7,11 @@
 @media screen and (max-width: 390px) {
   /* Header start */
 
-  html, body {
+  html,
+  body {
     overflow-x: hidden;
     width: 100%;
   }
-
 
   .headermenuitems {
     display: none;
@@ -26,6 +26,12 @@
   }
   #shopicon {
     display: block;
+  }
+
+  #Sectiontext {
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-bottom: 15px;
   }
 
   #hamtdaa {
@@ -125,10 +131,6 @@
     display: none;
   }
 
-  /* #tradeintablet-con {display: none;}
-
-  #careerstablet-con {display: none;} */
-
   #careerstablet-con-mobile {
     display: flex;
   }
@@ -165,4 +167,17 @@
   #Body-Paints7-mobile {
     display: flex;
   }
+
+  #careerstablet-con-mobile .Iphone16 {
+
+  font-weight: 700;
+  font-size: 30px;
+  }
+
+  #small-business-con .Iphone16 {
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+  }
+
 }

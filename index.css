@@ -164,6 +164,64 @@
   left: 50%;
 }
 
+#FrameBD1 {
+  position: absolute;
+  margin-top: 300px;
+  width: 405px;
+  height: 172px;
+  display: flex;
+  background-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+#FrameBD2 {
+  position: absolute;
+  margin-top: 36px;
+  width: 405px;
+  height: 172px;
+  display: flex;
+  background-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+#FrameBD3 {
+  position: absolute;
+  margin-top: 36px;
+  width: 405px;
+  height: 172px;
+  display: flex;
+  background-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-50%);
+  left: 50%;
+  gap: 10px;
+}
+
+
+.Frame1-1-mobile {
+  position: absolute;
+  margin-top: 55px;
+  width: 405px;
+  height: 172px;
+  display: flex;
+  background-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
 .Frame1-2 {
   display: flex;
   flex-direction: row;
@@ -491,7 +549,7 @@
   margin-top: 16px;
 }
 
-#applewatchcontainertablet {
+#applewatchcontainert {
   display: flex;
   position: absolute;
   transform: translateX(-50%);
@@ -529,9 +587,9 @@
 
 #small-business-con {
   position: absolute;
-  margin-top: 100px;
+  margin-top: 60px;
   width: 257px;
-  height: 116px;
+  height: 168px;
   display: flex;
   background-color: transparent;
   flex-direction: column;
@@ -592,7 +650,6 @@
   align-items: center;
   transform: translateX(-50%);
   left: 50%;
-  gap: 10px;
   display: none;
 }
 
@@ -690,7 +747,7 @@
 
 #Frameairpods {
   position: absolute;
-  margin-top: 390px;
+  margin-top: 300px;
   width: 405px;
   height: 172px;
   display: flex;
@@ -755,13 +812,23 @@
 }
 
 #watchlogo {
-  width: 152px;
+  width: 192px;
   height: 75px;
   background-color: transparent;
   background-image: url("./pictures/Watchframe.png");
   background-position: center;
   background-size: cover;
 }
+
+#watchlogo-mobile {
+  width: 235px;
+  height: 100px;
+  background-color: transparent;
+  background-image: url("./mobile.pictures/Frame42.png");
+  background-position: center;
+  background-size: cover;
+}
+
 
 #Framewatch1 {
   display: flex;
@@ -972,6 +1039,7 @@
   background-size: cover;
   position: relative;
   flex-shrink: 0;
+  width: 274px;
 }
 
 #Body-Paints6-1 {
@@ -986,8 +1054,7 @@
 }
 
 #Body-Paints6-1-mobile {
-  background-image: url("./pictures/Bodypaints6back.png");
-  width: 100%;
+  background-image: url("./mobile.pictures/mobile1.png");
 }
 
 #Body-Paints6-2 {
@@ -1002,8 +1069,7 @@
 }
 
 #Body-Paints6-2-mobile {
-  background-image: url("./pictures/Bodypaints6back.png");
-  width: 100%;
+  background-image: url("./mobile.pictures/mobile2.png");
 }
 
 #Body-Paints6-3 {
@@ -1018,9 +1084,29 @@
 }
 
 #Body-Paints6-3-mobile {
-  width: 100%;
-  background-image: url("./pictures/Bodypaints6back.png");
+  background-image: url("./mobile.pictures/mobile3.png");
 }
+
+#Body-Paints6-4-mobile {
+  background-image: url("./mobile.pictures/mobile4.png");
+}
+
+#Body-Paints6-5-mobile {
+  background-image: url("./mobile.pictures/mobile5.png");
+}
+
+#Body-Paints6-6-mobile {
+  background-image: url("./mobile.pictures/mobile6.png");
+}
+
+#Body-Paints6-7-mobile {
+  background-image: url("./mobile.pictures/mobile7.png");
+}
+
+#Body-Paints6-8-mobile {
+  background-image: url("./mobile.pictures/mobile8.png");
+}
+
 
 #BP6span {
   font-family: "Inter", sans-serif;
