@@ -4,19 +4,16 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 390px) {
-  /* Header start */
-
+@media screen and (min-width: 390px) and (max-width: 767px) {
   html,
   body {
     overflow-x: hidden;
     width: 100%;
   }
 
-  .headermenuitems {
-    display: none;
-  }
-
+  /* --- Header хэсэг --- */
+  .headermenuitems { display: none; }
+  
   #Headermenuback {
     display: flex;
     justify-content: space-between;
@@ -24,9 +21,8 @@
     padding: 0 16px;
     max-width: none;
   }
-  #shopicon {
-    display: block;
-  }
+  
+  #shopicon { display: block; }
 
   #Sectiontext {
     font-weight: 400;
@@ -41,143 +37,70 @@
     gap: 16px;
   }
 
-  #Frame1 {
+  /* --- Frame болон Зургийн тохиргоо (Desktop/Tablet-ийг нуух) --- */
+  #Frame1, #Frame1tablet, #Frame2, #Frame2tablet, #Frame3, #Frame3tablet,
+  #airpodtablet, #applewatchtablet, #macbookairtablet,
+  #small-business, #careerstablet, #tradeintablet,
+  #tradeinbackground, #Cardbackground,
+  #Body-Paints6-tablet, #Body-Paints7-tablet,
+  #Body-paints9, #ipadair, #airpods, #applewatch, #macbookair,
+  #Body-Paints6, #Body-Paints7 {
     display: none;
   }
 
-  #Frame1tablet {
-    display: none;
-  }
-
-  #Frame1mobile {
+  /* (Mobile харагдах байдал) */
+  #Frame1mobile, #Frame2mobile, #Frame3mobile,
+  #airpodmobile, #applewatchmobile, #macbookairmobile,
+  #small-business-mobile, #careerstablet-mobile, #tradeintablet-mobile,
+  #careerstablet-con-mobile, #tradeintablet-con-mobile,
+  #Body-Paints6-mobile, #Body-Paints7-mobile,
+  #Frameairpodsmobile, .BD7Back-mobile {
     display: flex;
   }
 
-  #Frame2 {
-    display: none;
-  }
-  #Frame2tablet {
-    display: none;
-  }
-  #Frame2mobile {
-    display: flex;
-  }
-
-  #Frame3 {
-    display: none;
-  }
-
-  #Frame3tablet {
-    display: none;
-  }
-
-  #Frame3mobile {
-    display: flex;
-  }
-
-  #airpodtablet {
-    display: none;
-  }
-
-  #airpodmobile {
-    display: flex;
-  }
-
-  #applewatchtablet {
-    display: none;
-  }
-
-  #applewatchmobile {
-    display: flex;
-  }
-
-  #macbookairtablet {
-    display: none;
-  }
-
-  #macbookairmobile {
-    display: flex;
-  }
-
-  #small-business {
-    display: none;
-  }
-
-  #small-business-mobile {
-    display: flex;
-  }
-
-  #careerstablet {
-    display: none;
-  }
-
-  #careerstablet-mobile {
-    display: flex;
-  }
-
-  #tradeintablet {
-    display: none;
-  }
-
-  #tradeintablet-mobile {
-    display: flex;
-  }
-
-  #tradeinbackground {
-    display: none;
-  }
-
-  #Cardbackground {
-    display: none;
-  }
-
-  #careerstablet-con-mobile {
-    display: flex;
-  }
-
-  #tradeintablet-con-mobile {
-    display: flex;
-  }
-
-  #Body-Paints3,
-  #Body-Paints4,
-  #Body-Paints5 {
+  /* --- Layout & Container тохиргоо --- */
+  #Body-Paints3, #Body-Paints4, #Body-Paints5 {
     display: flex;
     flex-direction: column;
     height: auto;
     align-items: center;
+    padding: 0;
   }
 
-  #Body-Paints6-tablet {
-    display: none;
+  /* --- Текст болон Typography --- */
+  .Iphone16, 
+  #Iphone16carrier, 
+  #iphone16tablethwhite {
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    margin-bottom: 6px;
+    padding: 0 10px;
   }
 
-  #Body-Paints6-mobile {
-    display: flex;
-  }
-
-  #Body-Paints7-tablet {
-    display: none;
-  }
-
-  .BD7Back-mobile {
-    display: flex;
-  }
-
-  #Body-Paints7-mobile {
-    display: flex;
-  }
-
-  #careerstablet-con-mobile .Iphone16 {
-
-  font-weight: 700;
-  font-size: 30px;
-  }
-
+  #careerstablet-con-mobile .Iphone16,
   #small-business-con .Iphone16 {
     font-size: 30px;
-    color: black;
     font-weight: 700;
+    color: black;
   }
 
+  .Helloapple, 
+  .Helloappletablet2 {
+    letter-spacing: -0.01em;
+    line-height: 1.3;
+    margin-bottom: 16px;
+    padding: 0 20px;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #small-business-con .Helloapple,
+  #careerstablet-con-mobile .Helloapple,
+  #tradeintablet-con-mobile .Helloapple {
+    font-size: 16.5px;
+    max-width: 330px;
+    padding: 0 10px;
+    line-height: 1.3;
+  }
 }

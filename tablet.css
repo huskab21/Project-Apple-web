@@ -1,26 +1,15 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-@media screen and (max-width: 768px) {
-  /* Header start */
-
-  .headermenuitems {
-    display: none;
-  }
-
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* --- Header хэсэг --- */
+  .headermenuitems { display: none; }
+  
   #Headermenuback {
     display: flex;
     justify-content: space-between;
     width: 100%;
     padding: 0 16px;
   }
-
-  #shopicon {
-    display: block;
-  }
+  
+  #shopicon { display: block; }
 
   #hamtdaa {
     display: flex;
@@ -29,128 +18,40 @@
     gap: 16px;
   }
 
-  /* Body paints 0 start */
-
-  #Frame1tablet {
-    display: flex;
-  }
-
-  #Frame1 {
-    display: none;
-  }
-
-  /* Body paints 1 start */
-
-  #Frame2tablet {
-    display: flex;
-  }
-
-  #Frame2 {
-    display: none;
-  }
-
-  #Frame3 {
-    display: none;
-  }
-
-  #Frame3tablet {
-    display: flex;
-  }
-
-  /* Body paints 4 50% */
-
-  #airpodtablet {
-    display: flex;
-  }
-
-  #ipadair {
-    display: none;
-  }
-
-  #applewatchtablet {
-    display: flex;
-  }
-
-  #airpods {
-    display: none;
-  }
-
-  #Frameairpodstablet {
-    display: flex;
-  }
-
-  #macbookairtablet {
-    display: flex;
-  }
-
-  #applewatch {
-    display: none;
-  }
-
-  #macbookair {
-    display: none;
-  }
-
-  #Body-Paints7 {
-    display: none;
-  }
-
-  #Body-Paints6 {
-    display: none;
-  }
-
-  #tablelist {
-    display: none;
-  }
-
-  #small-business {
-    display: flex;
-  }
-
-  #Framewatchtablet {
-    display: flex;
-  }
-
-  #Body-Paints5 {
-    display: flex;
-  }
-
-  #careerstablet {
-    display: flex;
-  }
-
-  #tradeintablet {
-    display: flex;
-  }
-
-  #tradeinbackground {
-    display: none;
-  }
-
-  #Cardbackground {
-    display: none;
-  }
-
-  #Body-Paints6-tablet {
-    display: flex;
-  }
-
-  #BP6-container-tablet {
-    display: flex;
-  }
-
-  #BP6span-tablet {
-    display: flex;
-  }
-
+  /* --- Харагдах элементүүд (display: flex) --- */
+  #Frame1tablet, 
+  #Frame2tablet, 
+  #Frame3tablet, 
+  #airpodtablet, 
+  #applewatchtablet, 
+  #Frameairpodstablet, 
+  #macbookairtablet, 
+  #small-business, 
+  #Framewatchtablet, 
+  #Body-Paints5, 
+  #careerstablet, 
+  #tradeintablet, 
+  #Body-Paints6-tablet, 
+  #BP6-container-tablet, 
+  #BP6span-tablet, 
   #Body-Paints7-tablet {
     display: flex;
   }
 
-  #Body-paints8 {
-    display: none;
-  }
-
+  /* --- Нуух элементүүд (display: none) --- */
+  #Frame1, 
+  #Frame2, 
+  #Frame3, 
+  #ipadair, 
+  #airpods, 
+  #applewatch, 
+  #macbookair, 
+  #Body-Paints7, 
+  #Body-Paints6, 
+  #tablelist, 
+  #tradeinbackground, 
+  #Cardbackground, 
+  #Body-paints8, 
   #Body-paints9 {
     display: none;
   }
